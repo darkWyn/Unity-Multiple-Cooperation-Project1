@@ -1,0 +1,4 @@
+repository "PVZ自走棋_多人联机测试@darkzzlb@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
