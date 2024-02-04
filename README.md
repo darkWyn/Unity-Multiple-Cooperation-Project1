@@ -10,3 +10,7 @@
 ## Unity
 - 若尚未下载unity可以[点击此处](https://unity.cn/)，进入unity中文官网下载UnityHub
 
+## Unity学习路径   以下内容建议按顺序学习（含付费课程，经济条件不允许可忽略 doge）
+
+### Unity新手上车
+1. [C#初级编程](https://learn.u3d.cn/tutorial/beginner-gameplay-scripting)
