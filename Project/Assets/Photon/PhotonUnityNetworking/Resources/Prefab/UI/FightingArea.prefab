@@ -113,6 +113,7 @@ MonoBehaviour:
   chessNum: 0
   isReady: 0000
   roundTime: 40
+  readyTime: 35
   chooseCardPanel:
   - {fileID: 0}
   - {fileID: 0}
