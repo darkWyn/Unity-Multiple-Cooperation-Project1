@@ -14,7 +14,7 @@
 
 ### Unity新手上车
 1. [C#初级编程](https://learn.u3d.cn/tutorial/beginner-gameplay-scripting) 摘要:本课程将通过简单易学的视频，从零基础开始介绍游戏开发编程
-2. [Unity开发过程中常见报错与Debug](https://learn.u3d.cn/tutorial/unity-errors-debug)
+2. [Unity开发过程中常见报错与Debug](https://learn.u3d.cn/tutorial/unity-errors-debug)摘要:罗列新手常见的报错原因与解决方式
 3. [Unity 小提示与小技巧（上）](https://learn.u3d.cn/tutorial/unity-xiao-ti-shi-yu-xiao-ji-qiao-shang)&&[Unity 小提示与小技巧（下）](https://learn.u3d.cn/tutorial/unity-xiao-ti-shi-yu-xiao-ji-qiao-xia)
 4. [Bolt可视化编程工具](https://learn.u3d.cn/tutorial/bolt-mstudio)
 5. [节点编辑器 - XNode 教程](https://learn.u3d.cn/tutorial/xnode_gbe)
