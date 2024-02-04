@@ -29,9 +29,10 @@
 ### Unity老司机
 1.[C# 中级编程](https://learn.u3d.cn/tutorial/intermediate-gameplay-scripting) 摘要:本课程提供中级脚本开发的基本知识
 
-2.
+2.[游戏开发设计模式（连载至工厂模式](https://learn.u3d.cn/tutorial/game-design-pattern-jizhi) 摘要:此教程用简单的例子讲解了在游戏开发过程当中会用到的且十分有用的设计模式，帮助开发者能够写出低耦合高内聚的项目
 
-3.
+3.[零基础入门GameFramework框架：制作一个滚动小球](https://learn.u3d.cn/tutorial/game-framework-rolling-ball-gbe) 摘要:  这是一个教你使用 Game Framework 基础功能的教程！教程视频全部为 2K 分辨率视频，请使用电脑浏览器观看以得到最佳学习体验！课程内容包括：场景的加载、资源工具、UI、游戏状态机、资源池和对象池、等等
+教程会提供的内容包括：完成工程
 
 
 
