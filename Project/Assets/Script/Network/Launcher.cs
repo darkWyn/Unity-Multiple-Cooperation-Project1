@@ -34,7 +34,7 @@ public class Launcher : MonoBehaviourPunCallbacks//可以得到PUN里面的反馈
     public override void OnJoinedRoom()//加入房间后
     {
         base.OnJoinedRoom();
-        CreateFightingArea();
+        //CreateFightingArea();
         //GameObject curCanvas = Instantiate(chooseCardPanel);
         GameObject curCanvas = PhotonNetwork.Instantiate("Prefab/UI/ChoosingCard", new Vector3(0, 0, 0), Quaternion.identity, 0);
         chooseCardPanel = curCanvas.transform.Find("ChooseCardPanel").gameObject;
