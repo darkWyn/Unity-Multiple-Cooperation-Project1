@@ -5,10 +5,13 @@ using Photon.Pun;
 
 public class Launcher : MonoBehaviourPunCallbacks//可以得到PUN里面的反馈
 {
-    public GameObject chooseCardPanel;
+    public GameObject gameManager, chooseCardPanel;
+    private int createTimes;//用于标记GameManager生成次数
+    public static Launcher launcher;
     private void Awake()
     {
-        
+        launcher = this.gameObject.GetComponent<Launcher>();
+        createTimes = 0;
     }
     // Start is called before the first frame update
     void Start()
@@ -31,9 +34,18 @@ public class Launcher : MonoBehaviourPunCallbacks//可以得到PUN里面的反馈
     public override void OnJoinedRoom()//加入房间后
     {
         base.OnJoinedRoom();
+        CreateFightingArea();
         //GameObject curCanvas = Instantiate(chooseCardPanel);
         GameObject curCanvas = PhotonNetwork.Instantiate("Prefab/UI/ChoosingCard", new Vector3(0, 0, 0), Quaternion.identity, 0);
         chooseCardPanel = curCanvas.transform.Find("ChooseCardPanel").gameObject;
         
+    }
+    public void CreateFightingArea()
+    {
+        if (PhotonNetwork.CountOfPlayers == 1&&createTimes==0)
+        {
+            gameManager = PhotonNetwork.Instantiate("Prefab/UI/FightingArea", new Vector3(0, 0, 0), Quaternion.identity, 0);
+            createTimes++;
+        }
     }
 }

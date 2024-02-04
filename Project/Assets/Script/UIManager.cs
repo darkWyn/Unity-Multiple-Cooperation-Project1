@@ -29,6 +29,7 @@ public class UIManager : MonoBehaviourPunCallbacks
     {
         playerNum.GetComponent<Text>().text = "在线玩家数:" + GameManager.playerNum.ToString();
         Debug.Log("NetWorkPlayers:" + PhotonNetwork.CountOfPlayers.ToString() + "GameManagerPlayers:" + GameManager.playerNum.ToString());
+        UpdateTime();
     }
 
     public void StartButton()
@@ -60,6 +61,30 @@ public class UIManager : MonoBehaviourPunCallbacks
     {
         Time.timeScale = 0;
         settings.SetActive(true);
+    }
+    #endregion
+    #region 时间更新
+    public void UpdateTime()
+    {
+        Text startTimer = transform.Find("Timer").Find("StartTimer").Find("timer").GetComponent<Text>();
+        Text readyTimer = transform.Find("Timer").Find("ReadyTimer").Find("timer").GetComponent<Text>();
+        startTimer.text = "距离回合结束还有" + GameManager.instance.StartTimer().ToString() + "秒";
+        readyTimer.text = "距离回合开始还有" + GameManager.instance.ReadyTimer().ToString() + "秒";
+        if (GameManager.instance.回合开始 == true)
+        {
+            startTimer.gameObject.SetActive(true);
+            readyTimer.gameObject.SetActive(false);
+        }
+        else if (GameManager.instance.回合开始==false)
+        {
+            startTimer.gameObject.SetActive(false);
+            readyTimer.gameObject.SetActive(true);
+        }
+        else
+        {
+            startTimer.gameObject.SetActive(false);
+            readyTimer.gameObject.SetActive(false);
+        }
     }
     #endregion
 }

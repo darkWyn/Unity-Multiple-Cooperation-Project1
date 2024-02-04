@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviourPunCallbacks
     [Space]
     [Header("单个回合战斗时间上限")]
     [SerializeField] private float roundTime;
-    private float timerForRound;
+    public float readyTime;//回合间准备时间
+    private float timerForRound, timerForReady;//开始后的计时器与回合间的计时器
+
 
     [Space]
     [Header("双方控制台")]
@@ -27,6 +29,8 @@ public class GameManager : MonoBehaviourPunCallbacks
     {
         instance = this;
         playerNum = 0;
+        playerNum = PhotonNetwork.CountOfPlayers;
+
     }
     // Start is called before the first frame update
     void Start()
@@ -49,7 +53,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         isReady[0] = false;
         isReady[1] = false;
         #endregion
-        
+        Launcher.launcher.gameManager = this.gameObject;
     }
 
     // Update is called once per frame
@@ -58,31 +62,75 @@ public class GameManager : MonoBehaviourPunCallbacks
         playerNum = PhotonNetwork.CountOfPlayers;
         FightManage();
     }
+    #region 回合管理
 
     public void FightManage()
     {
-        if (回合开始 == false)
-        {
-            timerForRound = 0;
-            if (isReady[0] == true && isReady[1] == true)
-            {
-                回合开始 = true;
-            }
-        }
-        else if (回合开始 == true)
+        if (回合开始 == true && PhotonNetwork.CountOfPlayers == 2)
         {
             timerForRound += Time.deltaTime;
-            resetSign = false;
-            
-            if (timerForRound >= roundTime)
+            if (timerForRound > roundTime)
             {
                 回合开始 = false;
-                isReady[0] = false;
-                isReady[1] = false;
+                timerForRound = 0;
                 chooseCardPanel[0].GetComponent<ChooseCard>().UpdateCards();
                 chooseCardPanel[1].GetComponent<ChooseCard>().UpdateCards();
-                resetSign = true;
             }
         }
+
+        if (回合开始 == false && PhotonNetwork.CountOfPlayers == 2)
+        {
+            timerForReady += Time.deltaTime;
+        }
+        else
+        {
+            timerForReady = 0;
+        }
+
+        if (timerForReady>readyTime)
+        {
+            回合开始 = true;
+            timerForReady = 0;
+        }
+
+
     }
+
+    public float StartTimer()
+    {
+        float startTimer = (roundTime - timerForRound) % 1;
+        return startTimer;
+    }
+    public float ReadyTimer()
+    {
+        float readyTimer = (readyTime - timerForReady) % 1;
+        return readyTimer;
+    }
+    //public void FightManage()
+    //{
+    //    if (回合开始 == false)
+    //    {
+    //        timerForRound = 0;
+    //        if (isReady[0] == true && isReady[1] == true)
+    //        {
+    //            回合开始 = true;
+    //        }
+    //    }
+    //    else if (回合开始 == true)
+    //    {
+    //        timerForRound += Time.deltaTime;
+    //        resetSign = false;
+            
+    //        if (timerForRound >= roundTime)
+    //        {
+    //            回合开始 = false;
+    //            isReady[0] = false;
+    //            isReady[1] = false;
+    //            chooseCardPanel[0].GetComponent<ChooseCard>().UpdateCards();
+    //            chooseCardPanel[1].GetComponent<ChooseCard>().UpdateCards();
+    //            resetSign = true;
+    //        }
+    //    }
+    //}
+    #endregion
 }
