@@ -17,3 +17,4 @@
 2. [Unity开发过程中常见报错与Debug](https://learn.u3d.cn/tutorial/unity-errors-debug)
 3. [Unity 小提示与小技巧（上）](https://learn.u3d.cn/tutorial/unity-xiao-ti-shi-yu-xiao-ji-qiao-shang)&&[Unity 小提示与小技巧（下）](https://learn.u3d.cn/tutorial/unity-xiao-ti-shi-yu-xiao-ji-qiao-xia)
 4. [Bolt可视化编程工具](https://learn.u3d.cn/tutorial/bolt-mstudio)
+5. [节点编辑器 - XNode 教程](https://learn.u3d.cn/tutorial/xnode_gbe)
