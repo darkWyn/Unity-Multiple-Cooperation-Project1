@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+        playerNum = PhotonNetwork.CountOfPlayers;
         #region ≥ı ºªØ
         area1 = transform.Find("1").gameObject;
         area2 = transform.Find("2").gameObject;
