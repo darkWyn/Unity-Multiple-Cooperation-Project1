@@ -36,6 +36,8 @@
 
 4.[面向美术师的2D游戏美术、动画和光照](https://learn.u3d.cn/tutorial/2d-game-art-animation-lighting-for-artists) <font color="red">摘要:2D 游戏会唤起在 20 世纪 80 年代和 90 年代玩着此类游戏长大的人们的怀旧之情。但是，正如《茶杯头》、《空洞骑士》、《Among Us》、《小骨 ：英雄杀手》和《Ori》系列等使用 Unity 制作的游戏所呈现的那样，当今 2D 游戏的创新永无止境。随着硬件、图形和游戏开发软件的不断发展，我们能够创建各种 2D 游戏，这些游戏具有实时光照、高分辨率纹理和几乎无限数量的精灵。利用 2D 图形的平面性，美术师可以自由创作在任何设备上视觉效果均非常出色的卡通和奇幻艺术 (工作室需要画师,有意愿可进群交流[群聊](##项目声明)) </font>
 
+5.[数据存储 - Easy Save 教程](https://learn.u3d.cn/tutorial/easy-save) 摘要:  这是一个教你使用 Easy Save 基础功能的教程！教程视频全部为 2K 分辨率视频，请使用电脑浏览器观看以得到最佳学习体验！课程内容包括： 创建工程、  数据的保存与加载 Save And Load 、 游戏对象的加载与保存 GameObject Save And Load 、 自动保存场景 Auto Save 、 多个存档间切换 Switch Save 、 加密与压缩 Encryption And Compression 、 指定保存的字段 Serializable Field 、 Excel 文件的保存与加载 、 图片的保存与加载 Texture  、 整体文件的保存与加载 Raw String    教程会提供的内容包括：无付费插件包括：Easy Save 在 Unity 商店获取:  https://prf.hn/click/camref:1100lpwp9
+
 
 
 
