@@ -27,23 +27,23 @@
      
 
 ### Unity老司机
-1.[C# 中级编程](https://learn.u3d.cn/tutorial/intermediate-gameplay-scripting) 摘要:本课程提供中级脚本开发的基本知识
+1. [C# 中级编程](https://learn.u3d.cn/tutorial/intermediate-gameplay-scripting) 摘要:本课程提供中级脚本开发的基本知识
 
-2.[游戏开发设计模式（连载至工厂模式](https://learn.u3d.cn/tutorial/game-design-pattern-jizhi) 摘要:此教程用简单的例子讲解了在游戏开发过程当中会用到的且十分有用的设计模式，帮助开发者能够写出低耦合高内聚的项目
+2. [游戏开发设计模式（连载至工厂模式](https://learn.u3d.cn/tutorial/game-design-pattern-jizhi) 摘要:此教程用简单的例子讲解了在游戏开发过程当中会用到的且十分有用的设计模式，帮助开发者能够写出低耦合高内聚的项目
 
-3.[零基础入门GameFramework框架：制作一个滚动小球](https://learn.u3d.cn/tutorial/game-framework-rolling-ball-gbe) 摘要:  这是一个教你使用 Game Framework 基础功能的教程！教程视频全部为 2K 分辨率视频，请使用电脑浏览器观看以得到最佳学习体验！课程内容包括：场景的加载、资源工具、UI、游戏状态机、资源池和对象池、等等
+3. [零基础入门GameFramework框架：制作一个滚动小球](https://learn.u3d.cn/tutorial/game-framework-rolling-ball-gbe) 摘要:  这是一个教你使用 Game Framework 基础功能的教程！教程视频全部为 2K 分辨率视频，请使用电脑浏览器观看以得到最佳学习体验！课程内容包括：场景的加载、资源工具、UI、游戏状态机、资源池和对象池、等等
 教程会提供的内容包括：完成工程
 
-4.[面向美术师的2D游戏美术、动画和光照](https://learn.u3d.cn/tutorial/2d-game-art-animation-lighting-for-artists) <font color="red">摘要:2D 游戏会唤起在 20 世纪 80 年代和 90 年代玩着此类游戏长大的人们的怀旧之情。但是，正如《茶杯头》、《空洞骑士》、《Among Us》、《小骨 ：英雄杀手》和《Ori》系列等使用 Unity 制作的游戏所呈现的那样，当今 2D 游戏的创新永无止境。随着硬件、图形和游戏开发软件的不断发展，我们能够创建各种 2D 游戏，这些游戏具有实时光照、高分辨率纹理和几乎无限数量的精灵。利用 2D 图形的平面性，美术师可以自由创作在任何设备上视觉效果均非常出色的卡通和奇幻艺术 (工作室需要画师,有意愿可进群交流[群聊](##项目声明)) </font>
+4. [面向美术师的2D游戏美术、动画和光照](https://learn.u3d.cn/tutorial/2d-game-art-animation-lighting-for-artists) <font color="red">摘要:2D 游戏会唤起在 20 世纪 80 年代和 90 年代玩着此类游戏长大的人们的怀旧之情。但是，正如《茶杯头》、《空洞骑士》、《Among Us》、《小骨 ：英雄杀手》和《Ori》系列等使用 Unity 制作的游戏所呈现的那样，当今 2D 游戏的创新永无止境。随着硬件、图形和游戏开发软件的不断发展，我们能够创建各种 2D 游戏，这些游戏具有实时光照、高分辨率纹理和几乎无限数量的精灵。利用 2D 图形的平面性，美术师可以自由创作在任何设备上视觉效果均非常出色的卡通和奇幻艺术 (工作室需要画师,有意愿可进群交流[群聊](##项目声明)) </font>
 
-5.[数据存储 - Easy Save 教程](https://learn.u3d.cn/tutorial/easy-save) 摘要:  这是一个教你使用 Easy Save 基础功能的教程！教程视频全部为 2K 分辨率视频，请使用电脑浏览器观看以得到最佳学习体验！课程内容包括： 创建工程、  数据的保存与加载 Save And Load 、 游戏对象的加载与保存 GameObject Save And Load 、 自动保存场景 Auto Save 、 多个存档间切换 Switch Save 、 加密与压缩 Encryption And Compression 、 指定保存的字段 Serializable Field 、 Excel 文件的保存与加载 、 图片的保存与加载 Texture  、 整体文件的保存与加载 Raw String    教程会提供的内容包括：无付费插件包括：Easy Save 在 Unity 商店获取:  https://prf.hn/click/camref:1100lpwp9
+5. [数据存储 - Easy Save 教程](https://learn.u3d.cn/tutorial/easy-save) 摘要:  这是一个教你使用 Easy Save 基础功能的教程！教程视频全部为 2K 分辨率视频，请使用电脑浏览器观看以得到最佳学习体验！课程内容包括： 创建工程、  数据的保存与加载 Save And Load 、 游戏对象的加载与保存 GameObject Save And Load 、 自动保存场景 Auto Save 、 多个存档间切换 Switch Save 、 加密与压缩 Encryption And Compression 、 指定保存的字段 Serializable Field 、 Excel 文件的保存与加载 、 图片的保存与加载 Texture  、 整体文件的保存与加载 Raw String    教程会提供的内容包括：无付费插件包括：Easy Save 在 Unity 商店获取:  https://prf.hn/click/camref:1100lpwp9
 
-6.[Unity GDC 2022 - 2022年Unity技术路线图](https://learn.u3d.cn/tutorial/unity-gdc-2022-roadmap-2022)摘要:Unity GDC 2022 - 2022年Unity技术路线图关于2021 LTS长期支持版，还有2022年unity技术计划，重点谈谈那些我们认为真正有影响力的技术
+6. [Unity GDC 2022 - 2022年Unity技术路线图](https://learn.u3d.cn/tutorial/unity-gdc-2022-roadmap-2022)摘要:Unity GDC 2022 - 2022年Unity技术路线图关于2021 LTS长期支持版，还有2022年unity技术计划，重点谈谈那些我们认为真正有影响力的技术
 
-7.[Unity GDC 2022 - Unity美术工具链：打造创意新时代](https://learn.u3d.cn/tutorial/unity-gdc-2022-artist-tools) 摘要:Unity GDC 2022 - Unity美术工具链：打造创意新时代！Unity的使命是通过普及内容创作，帮助每个人实现创意愿景。 Unity收购的艺术工具技术：Ziva Dynamics, Weta Digital, SpeedTree未来协同
+7. [Unity GDC 2022 - Unity美术工具链：打造创意新时代](https://learn.u3d.cn/tutorial/unity-gdc-2022-artist-tools) 摘要:Unity GDC 2022 - Unity美术工具链：打造创意新时代！Unity的使命是通过普及内容创作，帮助每个人实现创意愿景。 Unity收购的艺术工具技术：Ziva Dynamics, Weta Digital, SpeedTree未来协同
 
-8.[Unity GDC 2022 - Unity联机多人游戏开发运营体验提升](https://learn.u3d.cn/tutorial/unity-gdc-2022-multiplayer-operate) 摘要:从游戏服务器端玩家匹配到发行变现,Unity多人联机游戏服务让开发者更专注于游戏变化和发展的体验，将大部分的时间专注于构建吸引人的内容，有助于发挥更大的游戏潜力
-9.[Unity GDC 2022 - Unity多人联机游戏服务方案的技术更新和亮点](https://learn.u3d.cn/tutorial/unity-gdc-2022-multiplayer-tech) 摘要:Unity多人联机游戏服务有哪些新功能？讲解Netcode for GameObjects，Relay， Lobby，multiplay，Unity Matchmaker如何支持多人游戏应用的开发
+8. [Unity GDC 2022 - Unity联机多人游戏开发运营体验提升](https://learn.u3d.cn/tutorial/unity-gdc-2022-multiplayer-operate) 摘要:从游戏服务器端玩家匹配到发行变现,Unity多人联机游戏服务让开发者更专注于游戏变化和发展的体验，将大部分的时间专注于构建吸引人的内容，有助于发挥更大的游戏潜力
+9. [Unity GDC 2022 - Unity多人联机游戏服务方案的技术更新和亮点](https://learn.u3d.cn/tutorial/unity-gdc-2022-multiplayer-tech) 摘要:Unity多人联机游戏服务有哪些新功能？讲解Netcode for GameObjects，Relay， Lobby，multiplay，Unity Matchmaker如何支持多人游戏应用的开发
 
 
 
