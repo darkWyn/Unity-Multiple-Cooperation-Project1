@@ -38,6 +38,7 @@
 
 5.[数据存储 - Easy Save 教程](https://learn.u3d.cn/tutorial/easy-save) 摘要:  这是一个教你使用 Easy Save 基础功能的教程！教程视频全部为 2K 分辨率视频，请使用电脑浏览器观看以得到最佳学习体验！课程内容包括： 创建工程、  数据的保存与加载 Save And Load 、 游戏对象的加载与保存 GameObject Save And Load 、 自动保存场景 Auto Save 、 多个存档间切换 Switch Save 、 加密与压缩 Encryption And Compression 、 指定保存的字段 Serializable Field 、 Excel 文件的保存与加载 、 图片的保存与加载 Texture  、 整体文件的保存与加载 Raw String    教程会提供的内容包括：无付费插件包括：Easy Save 在 Unity 商店获取:  https://prf.hn/click/camref:1100lpwp9
 
+6.[Unity GDC 2022 - 2022年Unity技术路线图](https://learn.u3d.cn/tutorial/unity-gdc-2022-roadmap-2022)摘要:Unity GDC 2022 - 2022年Unity技术路线图关于2021 LTS长期支持版，还有2022年unity技术计划，重点谈谈那些我们认为真正有影响力的技术
 
 
 
