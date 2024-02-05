@@ -40,7 +40,7 @@
 
 6.[Unity GDC 2022 - 2022年Unity技术路线图](https://learn.u3d.cn/tutorial/unity-gdc-2022-roadmap-2022)摘要:Unity GDC 2022 - 2022年Unity技术路线图关于2021 LTS长期支持版，还有2022年unity技术计划，重点谈谈那些我们认为真正有影响力的技术
 
-
+7.[Unity GDC 2022 - Unity美术工具链：打造创意新时代](https://learn.u3d.cn/tutorial/unity-gdc-2022-artist-tools) 摘要:Unity GDC 2022 - Unity美术工具链：打造创意新时代！Unity的使命是通过普及内容创作，帮助每个人实现创意愿景。 Unity收购的艺术工具技术：Ziva Dynamics, Weta Digital, SpeedTree未来协同
 
 
 
