@@ -42,6 +42,8 @@
 
 7.[Unity GDC 2022 - Unity美术工具链：打造创意新时代](https://learn.u3d.cn/tutorial/unity-gdc-2022-artist-tools) 摘要:Unity GDC 2022 - Unity美术工具链：打造创意新时代！Unity的使命是通过普及内容创作，帮助每个人实现创意愿景。 Unity收购的艺术工具技术：Ziva Dynamics, Weta Digital, SpeedTree未来协同
 
+8.[Unity GDC 2022 - Unity联机多人游戏开发运营体验提升](https://learn.u3d.cn/tutorial/unity-gdc-2022-multiplayer-operate) 摘要:从游戏服务器端玩家匹配到发行变现,Unity多人联机游戏服务让开发者更专注于游戏变化和发展的体验，将大部分的时间专注于构建吸引人的内容，有助于发挥更大的游戏潜力
+9.[Unity GDC 2022 - Unity多人联机游戏服务方案的技术更新和亮点](https://learn.u3d.cn/tutorial/unity-gdc-2022-multiplayer-tech) 摘要:Unity多人联机游戏服务有哪些新功能？讲解Netcode for GameObjects，Relay， Lobby，multiplay，Unity Matchmaker如何支持多人游戏应用的开发
 
 
 
